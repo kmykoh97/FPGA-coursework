@@ -18,4 +18,12 @@ the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
 refer to the applicable agreement for further details.
 */
-(header "graphic" (version "1.4"))
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 64 64)
+	(text "sc_computer_sim" (rect 5 0 78 12)(font "Arial" ))
+	(text "inst" (rect 8 32 20 44)(font "Arial" ))
+	(drawing
+		(rectangle (rect 16 16 32 32)(line_width 1))
+	)
+)
