@@ -1,0 +1,368 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kmyko/Desktop/digital design/lab/sc_computer/simulation/modelsim
+valu
+Z1 !s110 1574053857
+!i10b 1
+!s100 iBQBXUb7lFG5G>ceeoB1G3
+IT:7;Og0MhHKf6;Qn0?=>@1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1543328374
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/alu.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/alu.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1574053857.000000
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/alu.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/alu.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vclock_2T
+R1
+!i10b 1
+!s100 SX;kb?NnC2?Ej=J2gbTCm0
+IHCmf:5o5:gTOjQg>ci16C3
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_2T.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_2T.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_2T.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_2T.v|
+!i113 1
+R6
+R7
+nclock_2@t
+vclock_adjust
+R1
+!i10b 1
+!s100 loP]l0DGEO[4=Wki8fz_F2
+IJ?5?=TiNohZ231Yn2_1HQ0
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_adjust.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_adjust.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_adjust.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_adjust.v|
+!i113 1
+R6
+R7
+vdff32
+R1
+!i10b 1
+!s100 HECC`^iOc5[14QAYdehTc2
+I07YIoS6MK`25dTm^hoUiJ2
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/dff32.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/dff32.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/dff32.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/dff32.v|
+!i113 1
+R6
+R7
+vdffe32
+R1
+!i10b 1
+!s100 ]P7KB:G@SWj@Eh7O3L4mO0
+I8P8MZmfSGmMFL>eYk3kkI3
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/dffe32.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/dffe32.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/dffe32.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/dffe32.v|
+!i113 1
+R6
+R7
+vmux2x32
+R1
+!i10b 1
+!s100 Vi[QeW[h5J<b?^eO0EU6P1
+IImoZ:Xf1:5aE3iH46PKEH0
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x32.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x32.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x32.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x32.v|
+!i113 1
+R6
+R7
+vmux2x5
+R1
+!i10b 1
+!s100 aOfS@BXaFKTb^PKfGW10F3
+I9?U?=ECb[X1PEeBi:KfKf3
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x5.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x5.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x5.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x5.v|
+!i113 1
+R6
+R7
+vmux4x32
+Z8 !s110 1574053858
+!i10b 1
+!s100 1aH>8<2@A4JlOKnH]USZA0
+Ikk49Fj=D7nO41]i9VPCLW3
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux4x32.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux4x32.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1574053858.000000
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux4x32.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux4x32.v|
+!i113 1
+R6
+R7
+vram_1port
+R8
+!i10b 1
+!s100 mHNS]9S`dJX>k]nP45Cg91
+ISfIiZ30[Nn7W=d1Oni=4g1
+R2
+R0
+w1573999766
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/ram_1port.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/ram_1port.v
+Z10 L0 39
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/ram_1port.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/ram_1port.v|
+!i113 1
+R6
+R7
+vregfile
+R8
+!i10b 1
+!s100 IkeGDo>:AU6jVQ][CA4_m0
+ICI=faCSZXV[^ohlQjn]YL3
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/regfile.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/regfile.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/regfile.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/regfile.v|
+!i113 1
+R6
+R7
+vrom_1port
+R8
+!i10b 1
+!s100 mBOWAdL:m7:OkGLN3=Ki]3
+ITZj6?bY1]FT]]UMjeM74Z3
+R2
+R0
+w1573999726
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/rom_1port.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/rom_1port.v
+R10
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/rom_1port.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/rom_1port.v|
+!i113 1
+R6
+R7
+vsc_computer_main
+R8
+!i10b 1
+!s100 o5GJ=9UWGO4B;lDnD8?6?3
+INfbeafA:5CjmHl3aVWHh:2
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer.v
+L0 7
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer.v|
+!i113 1
+R6
+R7
+vsc_computer_sim
+R8
+!i10b 1
+!s100 J9Nkk597dOWX7>M;Sk[DA0
+IBl@WU?KcfQb_ABQ3l5jOJ3
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer_sim.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer_sim.v
+L0 25
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer_sim.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer_sim.v|
+!i113 1
+R6
+R7
+vsc_cpu
+!s110 1574054131
+!i10b 1
+!s100 i;dP_lfal=;^Q4_^Eo3@J0
+IHa??cQbRzlTn?5:3>_`l43
+R2
+R0
+w1574054125
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1574054131.000000
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v|
+!i113 1
+R6
+R7
+vsc_cu
+Z11 !s110 1574053859
+!i10b 1
+!s100 oIA_:ceMjH27FRQEGSgeK2
+I:3101BJ2Be[eF8J6L1LTE1
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cu.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cu.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cu.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cu.v|
+!i113 1
+R6
+R7
+vsc_datamem
+!s110 1574066307
+!i10b 1
+!s100 ^638bPmYmIVKZOUI?N9@_3
+IYfQUNGTh0WJ3FJ5[iQS9I1
+R2
+R0
+w1574065692
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_datamem.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_datamem.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1574066307.000000
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_datamem.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_datamem.v|
+!i113 1
+R6
+R7
+vsc_instmem
+R11
+!i10b 1
+!s100 AkRm0N7T`VG;5RjW@f>S43
+IjL^F_6:1AzeA]NR3@JNP42
+R2
+R0
+R3
+8C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_instmem.v
+FC:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_instmem.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1574053859.000000
+!s107 C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_instmem.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_instmem.v|
+!i113 1
+R6
+R7

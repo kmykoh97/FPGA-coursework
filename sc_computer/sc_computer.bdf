@@ -4,24 +4,24 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect -304 104 -136 120)
+	(rect -296 64 -128 80)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "CLOCK_50" (rect 5 0 60 12)(font "Arial" ))
 	(pt 168 8)
@@ -34,11 +34,11 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -368 104 -304 120))
+	(annotation_block (location)(rect -360 64 -296 80))
 )
 (pin
 	(input)
-	(rect -304 160 -136 176)
+	(rect 0 240 168 256)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "SW[9..0]" (rect 5 0 48 12)(font "Arial" ))
 	(pt 168 8)
@@ -51,11 +51,11 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -368 160 -304 176))
+	(annotation_block (location)(rect -64 240 0 256))
 )
 (pin
 	(input)
-	(rect -304 24 -136 40)
+	(rect -296 -16 -128 0)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "KEY[0]" (rect 5 0 40 12)(font "Arial" ))
 	(pt 168 8)
@@ -68,13 +68,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -368 24 -304 40))
+	(annotation_block (location)(rect -360 -16 -296 0))
 )
 (pin
 	(input)
-	(rect -304 176 -136 192)
+	(rect 0 280 168 296)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KEY[3..1]" (rect 5 0 54 12)(font "Arial" ))
+	(text "KEY[3..1]" (rect 5 0 53 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -85,7 +85,7 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -368 176 -304 192))
+	(annotation_block (location)(rect -64 280 0 296))
 )
 (pin
 	(output)
@@ -377,7 +377,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -96 80 56 160)
+	(rect -96 40 56 120)
 	(text "clock_adjust" (rect 5 0 66 12)(font "Arial" ))
 	(text "inst10" (rect 8 64 37 76)(font "Arial" ))
 	(port
@@ -409,32 +409,44 @@ applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 136 64))
 	)
-	(annotation_block (parameter)(rect -112 48 72 80))
-)
-(connector
-	(pt 264 104)
-	(pt 248 104)
-	(bus)
+	(annotation_block (parameter)(rect -112 8 72 40))
 )
 (connector
 	(pt 240 128)
 	(pt 80 128)
 )
 (connector
-	(pt 240 88)
-	(pt 240 128)
+	(pt -120 88)
+	(pt -96 88)
+)
+(connector
+	(pt -120 -8)
+	(pt -120 88)
+)
+(connector
+	(pt 80 72)
+	(pt 80 128)
+)
+(connector
+	(pt 56 72)
+	(pt 80 72)
 )
 (connector
 	(pt 80 72)
 	(pt 88 72)
 )
 (connector
-	(pt 264 56)
-	(pt 240 56)
+	(pt 248 104)
+	(pt 264 104)
+	(bus)
+)
+(connector
+	(pt 240 128)
+	(pt 240 88)
 )
 (connector
 	(pt 240 56)
-	(pt 240 32)
+	(pt 264 56)
 )
 (connector
 	(pt 256 120)
@@ -442,26 +454,12 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt -96 128)
-	(pt -120 128)
-)
-(connector
-	(pt 248 104)
-	(pt 248 168)
-	(bus)
-)
-(connector
-	(pt 256 120)
-	(pt 256 184)
-	(bus)
-)
-(connector
 	(pt 240 88)
 	(pt 264 88)
 )
 (connector
-	(pt -120 32)
-	(pt -120 128)
+	(pt 240 -8)
+	(pt 240 56)
 )
 (connector
 	(pt 232 72)
@@ -503,38 +501,36 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 56 112)
-	(pt 80 112)
-)
-(connector
-	(pt -136 112)
-	(pt -96 112)
-)
-(connector
-	(pt -136 168)
-	(pt 248 168)
+	(pt 248 248)
+	(pt 168 248)
 	(bus)
 )
 (connector
-	(pt -136 184)
-	(pt 256 184)
+	(pt 248 104)
+	(pt 248 248)
 	(bus)
 )
 (connector
-	(pt 80 72)
-	(pt 80 112)
+	(pt 256 288)
+	(pt 168 288)
+	(bus)
 )
 (connector
-	(pt 80 112)
-	(pt 80 128)
+	(pt 256 120)
+	(pt 256 288)
+	(bus)
 )
 (connector
-	(pt -136 32)
-	(pt -120 32)
+	(pt -96 72)
+	(pt -128 72)
 )
 (connector
-	(pt -120 32)
-	(pt 240 32)
+	(pt -128 -8)
+	(pt -120 -8)
 )
-(junction (pt 80 112))
-(junction (pt -120 32))
+(connector
+	(pt -120 -8)
+	(pt 240 -8)
+)
+(junction (pt -120 -8))
+(junction (pt 80 72))

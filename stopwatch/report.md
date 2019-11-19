@@ -1,4 +1,4 @@
-# 实验三：基于 Verilog 和 FPGA/CPLD 的多功能秒表设计实验报告
+# 实验：基于 Verilog 和 FPGA/CPLD 的多功能秒表设计实验报告
 
 姓名：Meng Yit Koh
 学号：517030990022
@@ -98,6 +98,7 @@ end else begin
     counter_display_stop = 0;
 end
 ```
+注解：使用counter等待一段时间在记录按下，避免因为抖动而引起的按钮过灵事件。
 
 ### 时间信息计算
 
@@ -143,6 +144,7 @@ if (timess) begin
     end
 end
 ```
+注解：低位达到一定数值，高位+1，低位赋0，一直循环。
 
 ### DE1 秒表显示
 
@@ -173,6 +175,7 @@ always @ ( * )
     endcase
 endmodule  // stopwatch
 ```
+注解：0表示亮，1表示暗。（代码由老师提供）
 
 ### 按键功能
  

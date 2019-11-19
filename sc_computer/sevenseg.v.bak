@@ -1,0 +1,53 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@kmykoh97 
+0
+00satooooshi/se345
+ Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights
+se345/sc_computer/source/sevenseg.v
+ satoshi aikawa mips single cycle finished.
+da1e99b on Dec 18, 2018
+24 lines (24 sloc)  745 Bytes
+  
+//4bit 的 BCD 码至 7 段 LED 数码管译码器模块 //可供实例化共 6 个显示译码模块
+module sevenseg ( data, ledsegments);
+input [31:0] data; 
+output reg [6:0] ledsegments;
+always @ (*) 
+case(data)
+// gfe_dcba
+// 654_3210
+// 7 段 LED 数码管的位段编号
+// DE1-SOC 板上的信号位编号
+// DE1-SOC 板上的数码管为共阳极接法。
+0: ledsegments = 7'b100_0000; 
+1: ledsegments = 7'b111_1001; 
+2: ledsegments = 7'b010_0100; 
+3: ledsegments = 7'b011_0000;
+4: ledsegments = 7'b001_1001;
+5: ledsegments = 7'b001_0010;
+6: ledsegments = 7'b000_0010;
+7: ledsegments = 7'b111_1000;
+8: ledsegments = 7'b000_0000;
+9: ledsegments = 7'b001_0000; 
+default: ledsegments = 7'b111_1111;
+endcase 
+endmodule
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

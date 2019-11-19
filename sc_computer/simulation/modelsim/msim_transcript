@@ -1,0 +1,399 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do sc_computer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/kmyko/Desktop/digital\ design/lab/sc_computer {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/rom_1port.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:06:41 on Nov 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kmyko/Desktop/digital design/lab/sc_computer" C:/Users/kmyko/Desktop/digital design/lab/sc_computer/rom_1port.v 
+# -- Compiling module rom_1port
+# 
+# Top level modules:
+# 	rom_1port
+# End time: 13:06:41 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kmyko/Desktop/digital\ design/lab/sc_computer {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/ram_1port.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:06:41 on Nov 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kmyko/Desktop/digital design/lab/sc_computer" C:/Users/kmyko/Desktop/digital design/lab/sc_computer/ram_1port.v 
+# -- Compiling module ram_1port
+# 
+# Top level modules:
+# 	ram_1port
+# End time: 13:06:42 on Nov 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kmyko/Desktop/digital\ design/lab/sc_computer {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_instmem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:06:42 on Nov 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kmyko/Desktop/digital design/lab/sc_computer" C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_instmem.v 
+# -- Compiling module sc_instmem
+# 
+# Top level modules:
+# 	sc_instmem
+# End time: 13:06:42 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kmyko/Desktop/digital\ design/lab/sc_computer {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_datamem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:06:42 on Nov 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kmyko/Desktop/digital design/lab/sc_computer" C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_datamem.v 
+# -- Compiling module sc_datamem
+# 
+# Top level modules:
+# 	sc_datamem
+# End time: 13:06:42 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kmyko/Desktop/digital\ design/lab/sc_computer {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:06:42 on Nov 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kmyko/Desktop/digital design/lab/sc_computer" C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cu.v 
+# -- Compiling module sc_cu
+# 
+# Top level modules:
+# 	sc_cu
+# End time: 13:06:42 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kmyko/Desktop/digital\ design/lab/sc_computer {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:06:42 on Nov 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kmyko/Desktop/digital design/lab/sc_computer" C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v 
+# -- Compiling module sc_cpu
+# ** Error: C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v(13): (vlog-2730) Undefined variable: 'imm'.
+# ** Error (suppressible): C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v(15): (vlog-2388) 'imm' already declared in this scope (sc_cpu).
+# End time: 13:06:42 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./sc_computer_run_msim_rtl_verilog.do line 13
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/kmyko/Desktop/digital\ design/lab/sc_computer {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc..."
+# Load canceled
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:57 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 13:10:57 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_2T.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:57 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_2T.v 
+# -- Compiling module clock_2T
+# 
+# Top level modules:
+# 	clock_2T
+# End time: 13:10:57 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_adjust.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:57 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/clock_adjust.v 
+# -- Compiling module clock_adjust
+# 
+# Top level modules:
+# 	clock_adjust
+# End time: 13:10:57 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/dff32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:57 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/dff32.v 
+# -- Compiling module dff32
+# 
+# Top level modules:
+# 	dff32
+# End time: 13:10:57 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/dffe32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:57 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/dffe32.v 
+# -- Compiling module dffe32
+# 
+# Top level modules:
+# 	dffe32
+# End time: 13:10:57 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:57 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x5.v 
+# -- Compiling module mux2x5
+# 
+# Top level modules:
+# 	mux2x5
+# End time: 13:10:57 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:57 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux2x32.v 
+# -- Compiling module mux2x32
+# 
+# Top level modules:
+# 	mux2x32
+# End time: 13:10:58 on Nov 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux4x32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:58 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/mux4x32.v 
+# -- Compiling module mux4x32
+# 
+# Top level modules:
+# 	mux4x32
+# End time: 13:10:58 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/ram_1port.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:58 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/ram_1port.v 
+# -- Compiling module ram_1port
+# 
+# Top level modules:
+# 	ram_1port
+# End time: 13:10:58 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/regfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:58 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/regfile.v 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 13:10:58 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/rom_1port.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:58 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/rom_1port.v 
+# -- Compiling module rom_1port
+# 
+# Top level modules:
+# 	rom_1port
+# End time: 13:10:58 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:58 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer.v 
+# -- Compiling module sc_computer_main
+# 
+# Top level modules:
+# 	sc_computer_main
+# End time: 13:10:58 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer_sim.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:58 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer_sim.v 
+# -- Compiling module sc_computer_sim
+# 
+# Top level modules:
+# 	sc_computer_sim
+# End time: 13:10:58 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:58 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v 
+# -- Compiling module sc_cpu
+# ** Error: C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v(13): (vlog-2730) Undefined variable: 'imm'.
+# ** Error (suppressible): C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v(15): (vlog-2388) 'imm' already declared in this scope (sc_cpu).
+# End time: 13:10:58 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:58 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cu.v 
+# -- Compiling module sc_cu
+# 
+# Top level modules:
+# 	sc_cu
+# End time: 13:10:59 on Nov 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_datamem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:59 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_datamem.v 
+# -- Compiling module sc_datamem
+# 
+# Top level modules:
+# 	sc_datamem
+# End time: 13:10:59 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_instmem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:59 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_instmem.v 
+# -- Compiling module sc_instmem
+# 
+# Top level modules:
+# 	sc_instmem
+# End time: 13:10:59 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.sc_computer_sim -Lf C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+# vsim -gui -l msim_transcript work.sc_computer_sim -Lf C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf 
+# Start time: 13:11:16 on Nov 18,2019
+# Loading work.sc_computer_sim
+# Loading work.sc_computer_main
+# ** Error: (vsim-3033) C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer.v(19): Instantiation of 'sc_cpu' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sc_computer_sim/sc_computer_instance File: C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_computer.v
+#         Searched libraries:
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/Users/kmyko/Desktop/digital design/lab/sc_computer/simulation/modelsim/rtl_work
+# Loading work.sc_instmem
+# Loading work.rom_1port
+# Loading C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf.altsyncram
+# Loading work.sc_datamem
+# Loading work.ram_1port
+# Error loading design
+# End time: 13:11:16 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:47 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v 
+# -- Compiling module sc_cpu
+# ** Error: C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v(13): (vlog-2730) Undefined variable: 'imm'.
+# ** Error (suppressible): C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v(15): (vlog-2388) 'imm' already declared in this scope (sc_cpu).
+# End time: 13:11:47 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:14:45 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v 
+# -- Compiling module sc_cpu
+# ** Error: C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v(13): (vlog-2730) Undefined variable: 'e'.
+# ** Error (suppressible): C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v(15): (vlog-2388) 'e' already declared in this scope (sc_cpu).
+# End time: 13:14:45 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:14:47 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v 
+# -- Compiling module sc_cpu
+# ** Error: C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v(13): (vlog-2730) Undefined variable: 'e'.
+# ** Error (suppressible): C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v(15): (vlog-2388) 'e' already declared in this scope (sc_cpu).
+# End time: 13:14:47 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:31 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_cpu.v 
+# -- Compiling module sc_cpu
+# 
+# Top level modules:
+# 	sc_cpu
+# End time: 13:15:31 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript -Lf C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf work.sc_computer_sim
+# vsim -gui -l msim_transcript -Lf C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf work.sc_computer_sim 
+# Start time: 13:15:45 on Nov 18,2019
+# Loading work.sc_computer_sim
+# Loading work.sc_computer_main
+# Loading work.sc_cpu
+# Loading work.dff32
+# Loading work.sc_cu
+# Loading work.mux2x32
+# Loading work.mux2x5
+# Loading work.mux4x32
+# Loading work.regfile
+# Loading work.alu
+# Loading work.sc_instmem
+# Loading work.rom_1port
+# Loading C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf.altsyncram
+# Loading work.sc_datamem
+# Loading work.ram_1port
+# Loading C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf.altsyncram_body
+# Loading C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+run
+#                    0resetn = 0 clock_50M = 1 mem_clk = 1
+run -continue
+run -all
+run -all
+run -all
+run -all
+add wave -position end  sim:/sc_computer_sim/clock_50M_sim
+add wave -position end  sim:/sc_computer_sim/mem_clk_sim
+force -freeze sim:/sc_computer_sim/clock_50M_sim 1 0
+force -freeze sim:/sc_computer_sim/mem_clk_sim 1 0
+run -all
+force -freeze sim:/sc_computer_sim/mem_clk_sim 0 0
+run -all
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sc_computer_sim/mem_clk_sim 5 0
+# Invalid binary digit: 5.
+# ** Error: (vsim-4011) Invalid force value: 5 0.
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/sc_computer_sim/resetn_sim
+force -freeze sim:/sc_computer_sim/resetn_sim 1 0
+run
+run
+run
+run
+add wave -position end  sim:/sc_computer_sim/pc_sim
+force -freeze sim:/sc_computer_sim/clock_50M_sim 10 0
+run
+run
+run
+run
+run
+run
+run -all
+force -freeze sim:/sc_computer_sim/clock_50M_sim 50 0
+# Invalid binary digit: 5.
+# ** Error: (vsim-4011) Invalid force value: 50 0.
+# 
+force -freeze sim:/sc_computer_sim/mem_clk_sim 1 0
+run -all
+run -continue
+vlog -reportprogress 300 -work work {C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_datamem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:38:27 on Nov 18,2019
+# vlog -reportprogress 300 -work work C:/Users/kmyko/Desktop/digital design/lab/sc_computer/sc_datamem.v 
+# -- Compiling module sc_datamem
+# 
+# Top level modules:
+# 	sc_datamem
+# End time: 16:38:27 on Nov 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+quit -sim
+# End time: 17:07:16 on Nov 18,2019, Elapsed time: 3:51:31
+# Errors: 2, Warnings: 0
+file mkdir {C:/Users/kmyko/Desktop/digital design/ss}
+# reading C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project ss
