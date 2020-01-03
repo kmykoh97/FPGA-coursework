@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'VGAFrequency:vga_clk|VGAclk'
+Slack : -5.870
+TNS   : -232.809
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.854
+TNS   : -85.040
+
+Type  : Slow 1100mV 85C Model Setup 'SignalFrequency:signalfrequency|clk10'
+Slack : -3.279
+TNS   : -122.396
+
+Type  : Slow 1100mV 85C Model Hold 'VGAFrequency:vga_clk|VGAclk'
+Slack : 0.449
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.526
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'SignalFrequency:signalfrequency|clk10'
+Slack : 0.549
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.936
+TNS   : -20.204
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'VGAFrequency:vga_clk|VGAclk'
+Slack : -0.394
+TNS   : -38.151
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'SignalFrequency:signalfrequency|clk10'
+Slack : -0.394
+TNS   : -26.848
+
+Type  : Slow 1100mV 0C Model Setup 'VGAFrequency:vga_clk|VGAclk'
+Slack : -5.804
+TNS   : -226.033
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.876
+TNS   : -84.168
+
+Type  : Slow 1100mV 0C Model Setup 'SignalFrequency:signalfrequency|clk10'
+Slack : -3.190
+TNS   : -118.334
+
+Type  : Slow 1100mV 0C Model Hold 'VGAFrequency:vga_clk|VGAclk'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.539
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'SignalFrequency:signalfrequency|clk10'
+Slack : 0.592
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.919
+TNS   : -22.289
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'VGAFrequency:vga_clk|VGAclk'
+Slack : -0.394
+TNS   : -36.113
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'SignalFrequency:signalfrequency|clk10'
+Slack : -0.394
+TNS   : -25.207
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -3.916
+TNS   : -38.094
+
+Type  : Fast 1100mV 85C Model Setup 'VGAFrequency:vga_clk|VGAclk'
+Slack : -3.001
+TNS   : -111.318
+
+Type  : Fast 1100mV 85C Model Setup 'SignalFrequency:signalfrequency|clk10'
+Slack : -1.610
+TNS   : -57.503
+
+Type  : Fast 1100mV 85C Model Hold 'VGAFrequency:vga_clk|VGAclk'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.267
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'SignalFrequency:signalfrequency|clk10'
+Slack : 0.319
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.816
+TNS   : -5.079
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'SignalFrequency:signalfrequency|clk10'
+Slack : -0.029
+TNS   : -0.029
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'VGAFrequency:vga_clk|VGAclk'
+Slack : -0.024
+TNS   : -0.253
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -3.350
+TNS   : -32.929
+
+Type  : Fast 1100mV 0C Model Setup 'VGAFrequency:vga_clk|VGAclk'
+Slack : -2.666
+TNS   : -98.413
+
+Type  : Fast 1100mV 0C Model Setup 'SignalFrequency:signalfrequency|clk10'
+Slack : -1.410
+TNS   : -50.241
+
+Type  : Fast 1100mV 0C Model Hold 'VGAFrequency:vga_clk|VGAclk'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.253
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'SignalFrequency:signalfrequency|clk10'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.766
+TNS   : -4.916
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'SignalFrequency:signalfrequency|clk10'
+Slack : -0.004
+TNS   : -0.004
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'VGAFrequency:vga_clk|VGAclk'
+Slack : 0.006
+TNS   : 0.000
+
+------------------------------------------------------------
