@@ -67,6 +67,8 @@
 
 !*.pdf
 
+!*.md
+
 !*.s
 
 # End of https://www.gitignore.io/api/alteraquartusii
